@@ -3,27 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Camping-UA — Експертне спорядження для активного відпочинку</title>
+  <title>Camping-UA — Експертне спорядження Vitan</title>
   <style type="text/css">
     :root { --blue: #2c3e50; --orange: #ff6700; --bg: #f4f7f9; }
-    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--bg); color: #34495e; }
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--bg); color: #34495e; font-size: 18px; }
     .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
     
-    header { background: #fff; padding: 20px 0; border-bottom: 2px solid var(--blue); text-align: center; }
-    .logo { font-size: 28px; font-weight: 900; color: var(--blue); text-transform: uppercase; }
+    header { background: #fff; padding: 25px 0; border-bottom: 2px solid var(--blue); text-align: center; }
+    .logo { font-size: 30px; font-weight: 900; color: var(--blue); text-transform: uppercase; }
     .logo span { color: var(--orange); }
 
     .hero { background: var(--blue); color: #fff; padding: 80px 0; text-align: center; }
-    .hero h1 { font-size: 42px; margin: 0 0 20px; text-transform: uppercase; }
-    .hero p { max-width: 800px; margin: 0 auto; font-size: 18px; opacity: 0.9; line-height: 1.6; }
+    .hero h1 { font-size: 48px; margin: 0 0 25px; text-transform: uppercase; line-height: 1.1; }
+    .hero p { max-width: 800px; margin: 0 auto; font-size: 20px; opacity: 0.9; line-height: 1.6; }
 
-    .categories-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin: 60px 0; }
-    .cat-card { background: #fff; border-radius: 15px; overflow: hidden; text-decoration: none; color: inherit; box-shadow: 0 10px 20px rgba(0,0,0,0.05); transition: 0.3s; border: 1px solid #dcdde1; text-align: center; padding: 40px 20px; }
+    .categories-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin: 60px 0; }
+    .cat-card { background: #fff; border-radius: 20px; text-decoration: none; color: inherit; box-shadow: 0 10px 25px rgba(0,0,0,0.05); transition: 0.3s; border: 1px solid #dcdde1; text-align: center; padding: 50px 30px; }
     .cat-card:hover { transform: translateY(-10px); border-color: var(--orange); }
-    .cat-card h3 { font-size: 22px; color: var(--blue); margin: 0; text-transform: uppercase; }
-    .cat-card p { font-size: 14px; color: #95a5a6; margin-top: 10px; }
+    .cat-card h3 { font-size: 24px; color: var(--blue); margin: 0; text-transform: uppercase; font-weight: 900; }
+    .cat-card p { font-size: 16px; color: #7f8c8d; margin-top: 15px; line-height: 1.4; }
 
-    footer { background: #fff; padding: 40px 0; text-align: center; border-top: 1px solid #dcdde1; }
+    footer { background: #fff; padding: 50px 0; text-align: center; border-top: 1px solid #dcdde1; font-size: 16px; }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 32px; }
+      .hero p { font-size: 18px; }
+    }
   </style>
 </head>
 <body>
@@ -34,38 +39,37 @@
 
 <section class="hero">
   <div class="container">
-    <h1>Твій комфорт на дикій природі</h1>
-    <p>Ми не просто продаємо меблі — ми пропонуємо <strong>професійні інженерні рішення</strong> для тих, хто цінує надійність. Кожен виріб Vitan проходить тестування в реальних умовах, щоб ви могли насолоджуватися відпочинком, не відволікаючись на дрібниці.</p>
+    <h1>Філософія справжнього відпочинку</h1>
+    <p>Ми віримо, що природа не має бути випробуванням на витривалість. <strong>Camping-UA</strong> — це ваш провідник у світ комфортного кемпінгу. Ми відібрали найкращі інженерні рішення від Vitan, щоб кожна ваша подорож, риболовля чи пікнік супроводжувалися безкомпромісною надійністю та затишком.</p>
   </div>
 </section>
 
 <div class="container">
   <div class="categories-grid">
-    <!-- ГРУПА 1 -->
     <a href="chairs.html" class="cat-card">
       <h3>Стільці та крісла</h3>
-      <p>Від ультралегких алюмінієвих до посилених сталевих моделей</p>
+      <p>Від компактних моделей для риболовлі до преміальних крісел-режисерів</p>
     </a>
-    <!-- ГРУПА 2 -->
     <a href="#" class="cat-card">
       <h3>Столи та комплекти</h3>
-      <p>Компактні рішення для обіду на свіжому повітрі</p>
+      <p>Складні столи, що збираються за секунди</p>
     </a>
-    <!-- ГРУПА 3 -->
     <a href="#" class="cat-card">
       <h3>Розкладачки та ліжка</h3>
-      <p>Максимальний комфорт для тривалого кемпінгу</p>
+      <p>Повноцінний сон у будь-яких польових умовах</p>
     </a>
-    <!-- ГРУПА 4 -->
     <a href="#" class="cat-card">
       <h3>Чохли та комплектуючі</h3>
-      <p>Захист та обслуговування ваших меблів</p>
+      <p>Аксесуари для зберігання та модернізації меблів</p>
     </a>
   </div>
 </div>
 
 <footer>
-  <strong>Camping-UA — Тільки оригінальна продукція Vitan</strong>
+  <div class="container">
+    <strong>Camping-UA — Експертне спорядження Vitan</strong><br>
+    Працюємо для вашого комфорту © 2026
+  </div>
 </footer>
 
 </body>
