@@ -4,282 +4,242 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Стілець розкладний Vitan Режисер Алюміній 30х15 мм (Сірий) — Купити крісло для кемпінгу</title>
-  <meta name="description" content="Повний технічний опис стільця Режисер Vitan. Алюмінієвий профіль 30х15 мм, Oxford 600D, вага 2.6 кг. Надійне спорядження для риболовлі та відпочинку.">
+  <title>Vitan Режисер Алюміній — Стілець розкладний 30х15 мм (Сірий меланж)</title>
+  <meta name="description" content="Оригінальний стілець Vitan Режисер алюмінієвий. Надлегка конструкція 2.6 кг, тканина Oxford 600D. Професійні меблі для кемпінгу.">
 
   <style type="text/css">
     :root { 
-      --main-bg: #f4f7f9;
-      --accent-blue: #2c3e50;
-      --action-orange: #ff6700;
-      --text-dark: #34495e;
-      --border-color: #dcdde1;
+      --bg-color: #1a1c1e;
+      --card-bg: #24272b;
+      --vitan-orange: #ff6700;
+      --text-white: #f1f2f6;
+      --text-muted: #94a3b8;
+      --border-soft: rgba(255,255,255,0.05);
     }
     
-    body { font-family: 'Segoe UI', Roboto, sans-serif; line-height: 1.5; color: var(--text-dark); margin: 0; padding: 0; background: var(--main-bg); padding-bottom: 80px; }
+    body { font-family: 'Inter', 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: var(--text-white); margin: 0; padding: 0; background: var(--bg-color); padding-bottom: 90px; }
     .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
 
     /* Header */
-    header { background: #fff; border-bottom: 2px solid var(--accent-blue); padding: 20px 0; position: sticky; top: 0; z-index: 1000; }
-    .header-content { display: flex; justify-content: space-between; align-items: center; }
-    .brand-name { font-size: 24px; font-weight: 900; color: var(--accent-blue); text-transform: uppercase; letter-spacing: 1px; }
+    header { padding: 25px 0; background: rgba(26, 28, 30, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-soft); position: sticky; top: 0; z-index: 1000; }
+    .header-flex { display: flex; justify-content: space-between; align-items: center; }
+    .logo-vitan { font-size: 26px; font-weight: 900; color: var(--text-white); text-transform: uppercase; letter-spacing: 2px; text-decoration: none; }
+    .logo-vitan span { color: var(--vitan-orange); }
 
-    /* Product Section */
-    .product-box { background: #fff; margin: 30px 0; border-radius: 15px; box-shadow: 0 4px 30px rgba(0,0,0,0.05); overflow: hidden; display: grid; grid-template-columns: 1.1fr 1fr; }
+    /* Main Section */
+    .product-hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 50px; margin: 40px 0 80px; align-items: start; }
     
-    .gallery-side { padding: 30px; border-right: 1px solid var(--border-color); }
-    .main-view { width: 100%; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }
-    #mainImgDisplay { max-width: 100%; max-height: 100%; object-fit: contain; transition: opacity 0.3s; }
+    .gallery-box { background: var(--card-bg); border-radius: 30px; padding: 30px; border: 1px solid var(--border-soft); box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
+    .main-stage { width: 100%; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }
+    #mainImgDisplay { max-width: 100%; max-height: 100%; object-fit: contain; transition: 0.3s ease-in-out; }
     
-    .thumb-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
-    .t-btn { border: 1px solid var(--border-color); border-radius: 8px; cursor: pointer; opacity: 0.7; transition: 0.2s; background: #fff; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; overflow: hidden; }
-    .t-btn img { max-width: 85%; max-height: 85%; object-fit: contain; pointer-events: none; }
-    .t-btn.active { opacity: 1; border-color: var(--accent-blue); border-width: 2px; }
+    .thumbnails-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+    .t-item { border: 2px solid transparent; border-radius: 12px; cursor: pointer; background: rgba(255,255,255,0.03); transition: 0.3s; overflow: hidden; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; }
+    .t-item img { max-width: 80%; max-height: 80%; object-fit: contain; pointer-events: none; }
+    .t-item.active { border-color: var(--vitan-orange); background: rgba(255,255,255,0.08); }
 
     /* Info Side */
-    .info-side { padding: 40px; display: flex; flex-direction: column; }
-    .info-side h1 { font-size: 32px; color: var(--accent-blue); margin: 0 0 10px; line-height: 1.2; font-weight: 800; }
-    .model-code { font-size: 13px; color: #95a5a6; margin-bottom: 25px; text-transform: uppercase; }
-
-    .price-tag { font-size: 48px; font-weight: 900; color: var(--accent-blue); margin-bottom: 5px; }
-    .availability { font-size: 15px; color: #27ae60; font-weight: bold; margin-bottom: 35px; }
-
-    .btn-action-buy { 
-      background: var(--action-orange); color: white; text-decoration: none; text-align: center; 
-      padding: 22px; border-radius: 12px; font-weight: 900; font-size: 20px; text-transform: uppercase;
-      transition: 0.3s; margin-bottom: 30px; display: block;
-    }
-    .btn-action-buy:hover { background: #e65c00; transform: translateY(-3px); box-shadow: 0 10px 20px rgba(230, 92, 0, 0.2); }
-
-    .specs-grid-mini { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
-    .mini-spec { background: #f8f9fa; padding: 15px; border-radius: 10px; border-left: 5px solid var(--accent-blue); }
-    .mini-spec label { font-size: 11px; text-transform: uppercase; color: #7f8c8d; display: block; margin-bottom: 4px; }
-    .mini-spec span { font-size: 16px; font-weight: 800; color: var(--accent-blue); }
-
-    /* Full Banners Section */
-    .tech-banners-section { padding: 60px 0; }
-    .section-title { text-align: center; font-size: 32px; color: var(--accent-blue); margin-bottom: 50px; font-weight: 900; text-transform: uppercase; }
+    .buy-panel { padding: 10px; }
+    .buy-panel h1 { font-size: 38px; font-weight: 800; line-height: 1.1; margin: 0 0 15px 0; }
+    .model-id { font-size: 14px; color: var(--text-muted); margin-bottom: 30px; display: block; }
     
-    .tech-banner-item { background: #fff; border-radius: 20px; overflow: hidden; margin-bottom: 40px; display: flex; align-items: center; border: 1px solid var(--border-color); box-shadow: 0 10px 30px rgba(0,0,0,0.02); }
-    .tech-banner-item:nth-child(even) { flex-direction: row-reverse; }
-    .b-img { flex: 1.2; }
-    .b-img img { width: 100%; display: block; }
-    .b-text { flex: 1; padding: 50px; }
-    .b-text h3 { color: var(--accent-blue); font-size: 26px; margin-bottom: 20px; font-weight: 800; }
-    .b-text p { font-size: 17px; color: #576574; line-height: 1.7; }
+    .price-wrap { display: flex; align-items: baseline; gap: 15px; margin-bottom: 35px; }
+    .p-now { font-size: 56px; font-weight: 900; color: var(--vitan-orange); }
+    .p-old { font-size: 22px; text-decoration: line-through; color: #444; }
 
-    /* Full Specs Table */
-    .specs-full-box { padding: 80px 0; background: var(--accent-blue); color: #fff; border-radius: 40px; margin-bottom: 80px; }
-    .tech-table { max-width: 900px; margin: 0 auto; width: 100%; border-collapse: collapse; }
-    .tech-table td { padding: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 17px; }
-    .tech-table td:first-child { color: rgba(255,255,255,0.6); }
-    .tech-table td:last-child { text-align: right; font-weight: 700; }
+    .btn-main-action { 
+      background: var(--vitan-orange); color: white; text-decoration: none; text-align: center; 
+      padding: 22px; border-radius: 16px; font-weight: 900; font-size: 20px; text-transform: uppercase;
+      display: block; transition: 0.4s; box-shadow: 0 10px 25px rgba(255, 103, 0, 0.2);
+    }
+    .btn-main-action:hover { transform: translateY(-3px); box-shadow: 0 15px 35px rgba(255, 103, 0, 0.4); }
 
-    /* FAQ Extended */
-    .faq-full-section { padding-bottom: 80px; }
-    .faq-grid { max-width: 900px; margin: 0 auto; }
-    .faq-item { background: #fff; padding: 30px; border-radius: 15px; margin-bottom: 15px; border: 1px solid var(--border-color); transition: 0.3s; }
-    .faq-item:hover { border-color: var(--action-orange); transform: translateX(5px); }
-    .faq-item strong { font-size: 19px; color: var(--accent-blue); display: block; margin-bottom: 12px; }
-    .faq-item p { margin: 0; color: #576574; font-size: 16px; line-height: 1.6; }
+    .core-features { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 40px; }
+    .core-card { background: rgba(255,255,255,0.03); padding: 20px; border-radius: 15px; border: 1px solid var(--border-soft); }
+    .core-card label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; display: block; margin-bottom: 5px; }
+    .core-card span { font-size: 18px; font-weight: 800; color: var(--text-white); }
 
-    /* STICKY BAR - FIXED MOBILE ADAPTATION */
+    /* Banners Section */
+    .infographic-section { padding: 60px 0; }
+    .info-title { text-align: center; font-size: 32px; font-weight: 900; margin-bottom: 50px; text-transform: uppercase; }
+    .banner-container { background: var(--card-bg); border-radius: 40px; overflow: hidden; margin-bottom: 40px; border: 1px solid var(--border-soft); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+    .banner-container img { width: 100%; display: block; transition: 0.6s; }
+    .banner-container:hover img { transform: scale(1.02); }
+
+    /* Specs Table */
+    .specs-dark-wrap { padding: 80px 0; background: #111; border-radius: 50px; margin: 40px 0 80px; }
+    .full-specs-table { max-width: 900px; margin: 0 auto; width: 100%; border-collapse: collapse; }
+    .full-specs-table td { padding: 22px; border-bottom: 1px solid #1a1a1a; font-size: 17px; }
+    .full-specs-table td:first-child { color: var(--text-muted); width: 40%; }
+    .full-specs-table td:last-child { text-align: right; font-weight: 700; }
+
+    /* FAQ Section */
+    .faq-graphite { padding-bottom: 80px; }
+    .faq-graphite-grid { max-width: 900px; margin: 0 auto; }
+    .faq-graphite-item { background: var(--card-bg); padding: 30px; border-radius: 20px; margin-bottom: 15px; border: 1px solid var(--border-soft); transition: 0.3s; }
+    .faq-graphite-item strong { font-size: 19px; color: var(--vitan-orange); display: block; margin-bottom: 10px; }
+    .faq-graphite-item p { margin: 0; color: #cbd5e1; font-size: 16px; }
+
+    /* STICKY BOTTOM BAR - MOBILE OPTIMIZED */
     .sticky-buy-bar { 
-      position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; 
-      padding: 12px 0; box-shadow: 0 -8px 25px rgba(0,0,0,0.1); 
-      z-index: 2000; transform: translateY(100%); transition: 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28); 
-      border-top: 3px solid var(--accent-blue);
+      position: fixed; bottom: 0; left: 0; width: 100%; 
+      background: rgba(30, 32, 35, 0.95); backdrop-filter: blur(15px); 
+      border-top: 1px solid var(--border-soft); padding: 15px 0; 
+      z-index: 2000; transform: translateY(100%); transition: 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     }
     .sticky-buy-bar.active { transform: translateY(0); }
     .sticky-flex { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
-    
-    .sticky-meta { display: flex; align-items: center; gap: 15px; }
-    .sticky-meta img { height: 50px; width: auto; border-radius: 8px; border: 1px solid #eee; background: #fff; padding: 2px; }
-    .sticky-price { font-size: 26px; font-weight: 900; color: var(--action-orange); white-space: nowrap; }
-    .btn-sticky { margin: 0; padding: 14px 30px; font-size: 16px; flex-shrink: 0; }
+    .sticky-p-box { display: flex; align-items: center; gap: 15px; }
+    .sticky-p-box img { height: 50px; border-radius: 8px; background: #fff; padding: 2px; }
+    .sticky-price-now { font-size: 26px; font-weight: 900; color: var(--vitan-orange); white-space: nowrap; }
+    .btn-sticky { margin: 0; padding: 14px 25px; font-size: 16px; min-width: 160px; }
 
     @media (max-width: 992px) {
-      .product-box { grid-template-columns: 1fr; }
-      .gallery-side { border-right: none; border-bottom: 1px solid var(--border-color); }
-      .tech-banner-item { flex-direction: column !important; }
-      .b-text { padding: 30px; }
-      .info-side h1 { font-size: 26px; }
+      .product-hero { grid-template-columns: 1fr; }
+      .buy-panel h1 { font-size: 30px; }
     }
 
     @media (max-width: 768px) {
-      .brand-name { font-size: 18px; }
-      /* Покращення нижньої панелі для мобільних */
-      .sticky-meta img, .sticky-meta span { display: none; } 
-      .sticky-flex { justify-content: space-around; }
-      .sticky-price { font-size: 24px; text-align: center; }
-      .btn-sticky { padding: 12px 25px; font-size: 15px; flex: 1; max-width: 180px; }
-      .section-title { font-size: 26px; }
+      .sticky-p-box img, .sticky-p-box span { display: none; }
+      .sticky-flex { justify-content: space-around; gap: 5px; }
+      .sticky-price-now { font-size: 24px; text-align: center; }
+      .btn-sticky { flex: 1; max-width: 180px; min-width: auto; padding: 14px 15px; }
+      .info-title { font-size: 24px; }
     }
 
-    footer { padding: 60px 0; text-align: center; color: #95a5a6; font-size: 14px; background: #fff; border-top: 1px solid var(--border-color); }
+    footer { padding: 60px 0; text-align: center; color: #444; font-size: 14px; border-top: 1px solid var(--border-soft); }
   </style>
 </head>
 <body>
 
 <header>
-  <div class="container header-content">
-    <div class="brand-name">Vitan <strong>Camping</strong></div>
-    <div style="font-size: 14px; font-weight: bold; color: var(--accent-blue);" class="header-tagline">ПРОФЕСІЙНЕ СПОРЯДЖЕННЯ</div>
+  <div class="container header-flex">
+    <a href="index.html" class="logo-vitan">VITAN <span>CAMPING</span></a>
+    <a href="viber://chat?number=%2B380934503226" style="color: var(--vitan-orange); text-decoration: none; font-weight: 800; font-size: 14px;">КОНСУЛЬТАЦІЯ</a>
   </div>
 </header>
 
 <div class="container">
-  <div class="product-box">
+  <section class="product-hero">
     <!-- Галерея -->
-    <div class="gallery-side">
-      <div class="main-view">
-        <img src="https://i.postimg.cc/0QT2hgQJ/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e.jpg" id="mainImgDisplay" alt="Стілець Режисер Vitan Алюміній">
+    <div class="gallery-box">
+      <div class="main-stage">
+        <img src="https://i.postimg.cc/0QT2hgQJ/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e.jpg" id="viewFinder" alt="Vitan Режисер Алюміній">
       </div>
-      <div class="thumb-row">
-        <div class="t-btn active"><img src="https://i.postimg.cc/0QT2hgQJ/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e.jpg"></div>
-        <div class="t-btn"><img src="https://i.postimg.cc/Kz6vCXz3/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e-(1).jpg"></div>
-        <div class="t-btn"><img src="https://i.postimg.cc/3RsJzMR4/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e-(2).jpg"></div>
-        <div class="t-btn"><img src="https://i.postimg.cc/3RsJzMRy/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e-(3).jpg"></div>
+      <div class="thumbnails-row">
+        <div class="t-item active"><img src="https://i.postimg.cc/0QT2hgQJ/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e.jpg"></div>
+        <div class="t-item"><img src="https://i.postimg.cc/Kz6vCXz3/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e-(1).jpg"></div>
+        <div class="t-item"><img src="https://i.postimg.cc/3RsJzMR4/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e-(2).jpg"></div>
+        <div class="t-item"><img src="https://i.postimg.cc/3RsJzMRy/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e-(3).jpg"></div>
       </div>
     </div>
 
-    <!-- Інфо -->
-    <div class="info-side">
-      <h1>Стілець розкладний Vitan Режисер Алюміній (Сірий)</h1>
-      <div class="model-code">Код товару: <strong>2120033</strong> | Серія: Professional</div>
+    <!-- Інфо та Кнопка -->
+    <div class="buy-panel">
+      <h1>Стілець розкладний Режисер Алюміній (Сірий)</h1>
+      <span class="model-id">Артикул: <strong>2120033</strong> | Гарантія 12 міс.</span>
       
-      <div class="price-tag">1 540 грн</div>
-      <div class="availability">● В наявності — Відправка сьогодні</div>
+      <div class="price-wrap">
+        <span class="p-now">1 540 грн</span>
+        <span class="p-old">1 750 грн</span>
+      </div>
 
-      <a href="https://t.me/evgen_chuikin" class="btn-action-buy">Купити зараз</a>
+      <a href="https://t.me/evgen_chuikin" class="btn-main-action">Купити зараз</a>
 
-      <div class="specs-grid-mini">
-        <div class="mini-spec"><label>Каркас</label><span><strong>Алюміній 30х15 мм</strong></span></div>
-        <div class="mini-spec"><label>Вага</label><span><strong>2.6 кг</strong></span></div>
-        <div class="mini-spec"><label>Навантаження</label><span><strong>110 кг</strong></span></div>
-        <div class="mini-spec"><label>Тканина</label><span><strong>Oxford 600D</strong></span></div>
+      <div class="core-features">
+        <div class="core-card"><label>Власна вага</label><span><strong>2.6 кг</strong></span></div>
+        <div class="core-card"><label>Профіль</label><span><strong>Алюм 30х15</strong></span></div>
+        <div class="core-card"><label>Тканина</label><span><strong>Oxford 600D</strong></span></div>
+        <div class="core-card"><label>Навантаження</label><span><strong>110 кг</strong></span></div>
       </div>
     </div>
-  </div>
+  </section>
 </div>
 
-<section class="tech-banners-section">
+<section class="infographic-section">
   <div class="container">
-    <h2 class="section-title">Переваги конструкції</h2>
-    
-    <div class="tech-banner-item">
-      <div class="b-img"><img src="https://images.prom.ua/7261176196_w1280_h1280_alyum_stilets_rezhiser_30h15_mm_sirij3.png" alt="Профіль Vitan"></div>
-      <div class="b-text">
-        <h3><strong>Посилений алюмінієвий профіль</strong></h3>
-        <p>Використання <strong>плоскоовальної труби 30х15 мм</strong> дозволяє досягти виняткової жорсткості каркасу при мінімальній вазі виробу. Анодоване покриття надійно захищає метал від корозії.</p>
-      </div>
-    </div>
-
-    <div class="tech-banner-item">
-      <div class="b-img"><img src="https://images.prom.ua/7261176198_w1280_h1280_alyum_stilets_rezhiser_30h15_mm_sirij2.png" alt="Ергономіка Vitan"></div>
-      <div class="b-text">
-        <h3><strong>Анатомічний комфорт</strong></h3>
-        <p>Продумана висота спинки та підлокітників забезпечує правильну підтримку тіла. Тканина <strong>Oxford 600D</strong> з внутрішнім наповнювачем створює ефект м'якого крісла.</p>
-      </div>
-    </div>
-
-    <div class="tech-banner-item">
-      <div class="b-img"><img src="https://images.prom.ua/7261176197_w1280_h1280_alyum_stilets_rezhiser_30h15_mm_sirij1.png" alt="Компактність Vitan"></div>
-      <div class="b-text">
-        <h3><strong>Надзвичайна компактність</strong></h3>
-        <p>Завдяки спеціальним вузлам трансформації, стілець складається до товщини всього <strong>13 см</strong>. Це ідеальне рішення для економії місця в багажнику автомобіля.</p>
-      </div>
-    </div>
+    <h2 class="info-title">Технології Vitan</h2>
+    <div class="banner-container"><img src="https://images.prom.ua/7261176196_w1280_h1280_alyum_stilets_rezhiser_30h15_mm_sirij3.png"></div>
+    <div class="banner-container"><img src="https://images.prom.ua/7261176198_w1280_h1280_alyum_stilets_rezhiser_30h15_mm_sirij2.png"></div>
+    <div class="banner-container"><img src="https://images.prom.ua/7261176197_w1280_h1280_alyum_stilets_rezhiser_30h15_mm_sirij1.png"></div>
   </div>
 </section>
 
-<section class="specs-full-box">
+<section class="specs-dark-wrap">
   <div class="container">
-    <h2 class="section-title" style="color:#fff;">Технічні характеристики</h2>
-    <table class="tech-table">
-      <tr><td>Матеріал каркасу</td><td><strong>Анодований алюміній (30х15 мм)</strong></td></tr>
-      <tr><td>Матеріал текстилю</td><td><strong>Оксфорд 600D Меланж</strong></td></tr>
+    <h2 class="info-title">Характеристики</h2>
+    <table class="full-specs-table">
+      <tr><td>Каркас</td><td><strong>Алюмінієва плоскоовальна труба 30х15 мм</strong></td></tr>
+      <tr><td>Матеріал</td><td><strong>Подвійна тканина «Оксфорд 600D»</strong></td></tr>
       <tr><td>Вага виробу</td><td><strong>2.6 кг</strong></td></tr>
-      <tr><td>Максимальне навантаження</td><td><strong>110 кг</strong></td></tr>
       <tr><td>Висота до сидіння</td><td><strong>430 мм</strong></td></tr>
       <tr><td>Ширина сидіння</td><td><strong>450 мм</strong></td></tr>
-      <tr><td>Габарити у складеному вигляді</td><td><strong>830 х 530 х 130 мм</strong></td></tr>
-      <tr><td>Країна виробник</td><td><strong>Україна</strong></td></tr>
+      <tr><td>Розміри у складеному вигляді</td><td><strong>830 х 530 х 130 мм</strong></td></tr>
     </table>
   </div>
 </section>
 
-<section class="faq-full-section">
+<section class="faq-graphite">
   <div class="container">
-    <div class="faq-grid">
-      <h2 class="section-title">Питання та відповіді</h2>
-      
-      <div class="faq-item">
-        <strong>Чи стійкий алюмінієвий каркас до іржі?</strong>
-        <p>Так, на відміну від сталевих аналогів, алюміній абсолютно не боїться вологи та корозії. Це робить модель ідеальною для використання на риболовлі чи поблизу водойм.</p>
+    <h2 class="info-title">Питання та відповіді</h2>
+    <div class="faq-graphite-grid">
+      <div class="faq-graphite-item">
+        <strong>Чим алюмінієвий профіль 30х15 кращий за стандартний?</strong>
+        <p>Плоскоовальна форма профілю створює додаткові ребра жорсткості. Це дозволяє стільцю витримувати вагу до <strong>110 кг</strong> при власній вазі всього <strong>2.6 кг</strong>.</p>
       </div>
-
-      <div class="faq-item">
-        <strong>Яка реальна витривалість тканини?</strong>
-        <p>Ми використовуємо посилений <strong>Oxford 600D</strong> з особливим типом плетіння. Тканина стійка до розтягування, розривів та має водовідштовхувальне покриття.</p>
+      <div class="faq-graphite-item">
+        <strong>Чи стійка тканина до дощу та сонця?</strong>
+        <p>Так, матеріал <strong>Oxford 600D</strong> має водовідштовхувальне покриття та УФ-захист. Стілець не вигорає та швидко сохне.</p>
       </div>
-
-      <div class="faq-item">
-        <strong>Чи підійде цей стілець для піщаного ґрунту?</strong>
-        <p>Так. Завдяки горизонтальним перекладинам на ніжках, стілець не просідає у м'яку землю або пісок, рівномірно розподіляючи вагу користувача.</p>
-      </div>
-
-      <div class="faq-item">
-        <strong>Чи легко доглядати за сірим меланжем?</strong>
-        <p>Це найбільш практичний колір. Тканина меланж чудово маскує пил та дрібні забруднення, а за потреби легко очищується звичайною вологою губкою.</p>
+      <div class="faq-graphite-item">
+        <strong>Наскільки компактний стілець у машині?</strong>
+        <p>У складеному стані товщина складає всього <strong>13 см</strong>. Він легко стає за спинку сидіння автомобіля або вздовж борту багажника.</p>
       </div>
     </div>
   </div>
 </section>
 
-<div class="sticky-buy-bar" id="stickyBar">
+<div class="sticky-buy-bar" id="bottomBar">
   <div class="container sticky-flex">
-    <div class="sticky-meta">
-      <img src="https://i.postimg.cc/0QT2hgQJ/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e.jpg" alt="Vitan Режисер">
-      <span style="font-size: 15px; color: var(--accent-blue); font-weight: 800; margin-left: 10px;">Режисер Алюміній</span>
+    <div class="sticky-p-box">
+      <img src="https://i.postimg.cc/0QT2hgQJ/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e.jpg" alt="Vitan">
+      <div class="sticky-price-now">1 540 грн</div>
+      <span style="font-size: 14px; color: var(--text-muted); margin-left: 10px;">Режисер Алюміній</span>
     </div>
-    <div class="sticky-price">1 540 грн</div>
-    <a href="https://t.me/evgen_chuikin" class="btn-action-buy btn-sticky">Купити зараз</a>
+    <a href="https://t.me/evgen_chuikin" class="btn-main-action btn-sticky">Купити зараз</a>
   </div>
 </div>
 
 <footer>
   <div class="container">
-    <strong>Vitan Camping Store</strong> — Pixel Perfect Content © 2026
+    <strong>Vitan Professional Camping</strong> — 2026. <br>
+    Pixel Perfect Content.
   </div>
 </footer>
 
 <script>
-  /* ГАЛЕРЕЯ */
-  const mainImage = document.getElementById('mainImgDisplay');
-  const thumbs = document.querySelectorAll('.t-btn');
+  /* РОБОТА ГАЛЕРЕЇ */
+  const mainStage = document.getElementById('viewFinder');
+  const thumbs = document.querySelectorAll('.t-item');
 
-  thumbs.forEach(btn => {
-    btn.addEventListener('click', function() {
-      const src = this.querySelector('img').src;
-      mainImage.style.opacity = '0';
+  thumbs.forEach(card => {
+    card.addEventListener('click', function() {
+      const newPic = this.querySelector('img').src;
+      mainStage.style.opacity = '0';
       setTimeout(() => {
-        mainImage.src = src;
-        mainImage.style.opacity = '1';
+        mainStage.src = newPic;
+        mainStage.style.opacity = '1';
       }, 200);
       thumbs.forEach(t => t.classList.remove('active'));
       this.classList.add('active');
     });
   });
 
-  /* STICKY BAR LOGIC */
+  /* ЛОГІКА ПОЯВИ НИЖНЬОЇ ПАНЕЛІ */
   window.addEventListener('scroll', function() {
-    const bar = document.getElementById('stickyBar');
-    if (window.scrollY > 600) {
-      bar.classList.add('active');
-    } else {
-      bar.classList.remove('active');
-    }
+    const bar = document.getElementById('bottomBar');
+    if (window.scrollY > 600) { bar.classList.add('active'); } 
+    else { bar.classList.remove('active'); }
   });
 </script>
 
