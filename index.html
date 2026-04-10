@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitan Camping — Професійні меблі для кемпінгу та відпочинку</title>
+  <meta name="description" content="Офіційний каталог продукції Vitan. Кемпінгові стільці, столи, ліжка та аксесуари. Найкраща якість для вашого відпочинку.">
 
+  <style type="text/css">
+    :root { 
+      --accent: #ff6700; 
+      --dark-bg: #121212; 
+      --card-bg: #1e1e1e; 
+      --text-main: #ffffff; 
+      --text-dim: #a0a0a0; 
+    }
+    
+    body { font-family: 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: var(--text-main); margin: 0; padding: 0; background: var(--dark-bg); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+    /* Логотип */
+    .brand-logo-floating { 
+      position: fixed; top: 20px; right: 20px; z-index: 1000; 
+      background: white; padding: 10px; border-radius: 12px; 
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .brand-logo-floating img { height: 40px; width: auto; display: block; }
+
+    header { padding: 60px 0 40px; text-align: center; }
+    header h1 { font-size: 52px; font-weight: 900; margin: 0; letter-spacing: -1px; }
+    header h1 span { color: var(--accent); }
+    header p { font-size: 20px; color: var(--text-dim); margin-top: 10px; }
+
+    /* Сетка категорий */
+    .category-grid { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+      gap: 25px; 
+      margin: 40px 0 80px; 
+    }
+
+    .cat-card { 
+      background: var(--card-bg); 
+      border-radius: 25px; 
+      padding: 30px; 
+      text-align: center; 
+      text-decoration: none; 
+      color: white; 
+      border: 1px solid rgba(255,255,255,0.05); 
+      transition: 0.4s; 
+    }
+    .cat-card:hover { 
+      transform: translateY(-10px); 
+      border-color: var(--accent); 
+      box-shadow: 0 20px 40px rgba(255,103,0,0.1); 
+    }
+
+    .cat-icon { 
+      width: 100px; 
+      height: 100px; 
+      margin: 0 auto 20px; 
+      background: rgba(255,255,255,0.03); 
+      border-radius: 50%; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+    }
+    .cat-icon img { max-width: 60px; filter: brightness(0) invert(1); opacity: 0.8; }
+
+    .cat-card h3 { font-size: 22px; margin: 0 0 10px 0; }
+    .cat-card p { font-size: 14px; color: var(--text-dim); margin: 0; }
+
+    /* Футер */
+    footer { padding: 60px 0; text-align: center; border-top: 1px solid #1a1a1a; color: #444; font-size: 14px; }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 36px; }
+      .brand-logo-floating { top: 10px; right: 10px; padding: 5px; }
+      .brand-logo-floating img { height: 30px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="brand-logo-floating">
+  <img src="https://images.prom.ua/4287919640_w250_h100_klondajk.jpg" alt="Клондайк">
+</div>
+
+<header>
+  <div class="container">
+    <h1>Vitan <span>Camping</span></h1>
+    <p>Професійне спорядження для вашого відпочинку</p>
+  </div>
+</header>
+
+<div class="container">
+  <div class="category-grid">
+    
+    <a href="vitan-director.html" class="cat-card">
+      <div class="cat-icon"><img src="https://cdn-icons-png.flaticon.com/512/2822/2822554.png" alt="Стільці"></div>
+      <h3><strong>Кемпінгові стільці</strong></h3>
+      <p>Надлегкі алюмінієві та сталеві моделі</p>
+    </a>
+
+    <a href="tables.html" class="cat-card">
+      <div class="cat-icon"><img src="https://cdn-icons-png.flaticon.com/512/2603/2603914.png" alt="Столи"></div>
+      <h3><strong>Столи та Комплекти</strong></h3>
+      <p>Компактні рішення для пікніка</p>
+    </a>
+
+    <a href="beds.html" class="cat-card">
+      <div class="cat-icon"><img src="https://cdn-icons-png.flaticon.com/512/3063/3063822.png" alt="Ліжка"></div>
+      <h3><strong>Розкладачки та Ліжка</strong></h3>
+      <p>Комфортний сон у будь-яких умовах</p>
+    </a>
+
+    <a href="chairs.html" class="cat-card">
+      <div class="cat-icon"><img src="https://cdn-icons-png.flaticon.com/512/1000/1000350.png" alt="Крісла"></div>
+      <h3><strong>Крісла для риболовлі</strong></h3>
+      <p>Посилені моделі для довгих сесій</p>
+    </a>
+
+    <a href="#" class="cat-card">
+      <div class="cat-icon"><img src="https://cdn-icons-png.flaticon.com/512/2611/2611155.png" alt="Шезлонги"></div>
+      <h3><strong>Шезлонги</strong></h3>
+      <p>Для ідеального відпочинку на сонці</p>
+    </a>
+
+    <a href="#" class="cat-card">
+      <div class="cat-icon"><img src="https://cdn-icons-png.flaticon.com/512/3405/3405234.png" alt="Чохли"></div>
+      <h3><strong>Чохли та Аксесуари</strong></h3>
+      <p>Надійний захист вашого спорядження</p>
+    </a>
+
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <strong>Vitan Camping Store</strong> — Pixel Perfect Content © 2026
+  </div>
+</footer>
+
+</body>
+</html>
