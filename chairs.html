@@ -3,64 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Стільці та крісла Vitan — Camping-UA</title>
+  <title>Camping-UA — Експертне спорядження Vitan</title>
   <style type="text/css">
     :root { --blue: #2c3e50; --orange: #ff6700; --bg: #f4f7f9; }
-    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--bg); }
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--bg); color: #34495e; font-size: 18px; }
     .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
     
-    header { background: #fff; padding: 20px 0; border-bottom: 2px solid var(--blue); display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 22px; font-weight: 900; color: var(--blue); text-transform: uppercase; text-decoration: none; }
-    .back-link { text-decoration: none; color: var(--orange); font-weight: 800; font-size: 14px; }
+    header { background: #fff; padding: 25px 0; border-bottom: 2px solid var(--blue); text-align: center; }
+    .logo { font-size: 30px; font-weight: 900; color: var(--blue); text-transform: uppercase; }
+    .logo span { color: var(--orange); }
 
-    .page-title { margin: 40px 0; text-align: center; font-size: 32px; color: var(--blue); text-transform: uppercase; }
+    .hero { background: var(--blue); color: #fff; padding: 80px 0; text-align: center; }
+    .hero h1 { font-size: 48px; margin: 0 0 25px; text-transform: uppercase; line-height: 1.1; }
+    .hero p { max-width: 800px; margin: 0 auto; font-size: 20px; opacity: 0.9; line-height: 1.6; }
 
-    .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; margin-bottom: 60px; }
-    .card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border: 1px solid #dcdde1; display: flex; flex-direction: column; transition: 0.3s; }
-    .card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
-    
-    .card-img { padding: 20px; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; }
-    .card-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
-    
-    .card-info { padding: 20px; flex-grow: 1; text-align: center; }
-    .card-info h2 { font-size: 18px; color: var(--blue); margin: 0 0 15px; height: 50px; overflow: hidden; }
-    .card-price { font-size: 24px; font-weight: 900; color: var(--orange); margin-bottom: 20px; }
-    
-    .btn-view { background: var(--blue); color: #fff; text-decoration: none; padding: 12px; border-radius: 8px; display: block; font-weight: 700; text-transform: uppercase; }
+    .categories-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin: 60px 0; }
+    .cat-card { background: #fff; border-radius: 20px; text-decoration: none; color: inherit; box-shadow: 0 10px 25px rgba(0,0,0,0.05); transition: 0.3s; border: 1px solid #dcdde1; text-align: center; padding: 50px 30px; }
+    .cat-card:hover { transform: translateY(-10px); border-color: var(--orange); }
+    .cat-card h3 { font-size: 24px; color: var(--blue); margin: 0; text-transform: uppercase; font-weight: 900; }
+    .cat-card p { font-size: 16px; color: #7f8c8d; margin-top: 15px; line-height: 1.4; }
+
+    footer { background: #fff; padding: 50px 0; text-align: center; border-top: 1px solid #dcdde1; font-size: 16px; }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 32px; }
+      .hero p { font-size: 18px; }
+    }
   </style>
 </head>
 <body>
 
-<header class="container">
-  <a href="index.html" class="logo">Camping-UA</a>
-  <a href="index.html" class="back-link">← НА ГОЛОВНУ</a>
+<header>
+  <div class="container"><div class="logo">Camping-UA <span>Expert</span></div></div>
 </header>
 
-<div class="container">
-  <h1 class="page-title">Стільці та крісла</h1>
-  
-  <div class="product-grid">
-    <!-- Товар 1 -->
-    <div class="card">
-      <div class="card-img"><img src="https://i.postimg.cc/0QT2hgQJ/Alum-Stilec'-Reziser-30-15-mm-(Sirij)e.jpg"></div>
-      <div class="card-info">
-        <h2>Стілець Режисер Алюміній 30х15 мм (Сірий)</h2>
-        <div class="card-price">3 513 грн</div>
-        <a href="vitan-director.html" class="btn-view">Дивитися огляд</a>
-      </div>
-    </div>
+<section class="hero">
+  <div class="container">
+    <h1>Філософія справжнього відпочинку</h1>
+    <p>Ми віримо, що природа не має бути випробуванням на витривалість. <strong>Camping-UA</strong> — це ваш провідник у світ комфортного кемпінгу. Ми відібрали найкращі інженерні рішення від Vitan, щоб кожна ваша подорож, риболовля чи пікнік супроводжувалися безкомпромісною надійністю та затишком.</p>
+  </div>
+</section>
 
-    <!-- Товар 2 -->
-    <div class="card">
-      <div class="card-img"><img src="https://i.postimg.cc/nzwK9GkD/Stilec'-Reziser-bez-polici-d20-mm-(Tekstilen-Bezeva-smuga).jpg"></div>
-      <div class="card-info">
-        <h2>Стілець Режисер без полиці d20 мм (Текстилен)</h2>
-        <div class="card-price">1 672 грн</div>
-        <a href="vitan-director-no-shelf.html" class="btn-view">Дивитися огляд</a>
-      </div>
-    </div>
+<div class="container">
+  <div class="categories-grid">
+    <a href="chairs.html" class="cat-card">
+      <h3>Стільці та крісла</h3>
+      <p>Від компактних моделей для риболовлі до преміальних крісел-режисерів</p>
+    </a>
+    <a href="#" class="cat-card">
+      <h3>Столи та комплекти</h3>
+      <p>Складні столи, що збираються за секунди</p>
+    </a>
+    <a href="#" class="cat-card">
+      <h3>Розкладачки та ліжка</h3>
+      <p>Повноцінний сон у будь-яких польових умовах</p>
+    </a>
+    <a href="#" class="cat-card">
+      <h3>Чохли та комплектуючі</h3>
+      <p>Аксесуари для зберігання та модернізації меблів</p>
+    </a>
   </div>
 </div>
+
+<footer>
+  <div class="container">
+    <strong>Camping-UA — Експертне спорядження Vitan</strong><br>
+    Працюємо для вашого комфорту © 2026
+  </div>
+</footer>
 
 </body>
 </html>
